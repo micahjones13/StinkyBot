@@ -2,6 +2,7 @@ require("dotenv").config();
 const axios = require("axios");
 const discord = require("discord.js");
 const client = new discord.Client();
+
 const gifUrl =
   "https://api.tenor.com/v1/random?q=gibraltarapex&key=" +
   process.env.TENOR_TOKEN;
